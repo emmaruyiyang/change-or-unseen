@@ -1,0 +1,211 @@
+W1119 18:50:40.117000 17810 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 6114.74it/s]
+[1/51] P0  Action / Event Recall gold=A pred=A OK  1.9s
+[1/51] P1  Action / Event Recall gold=A pred=D X   34.95s
+[1/51] P2  Action / Event Recall gold=A pred=C X   9.21s
+[1/51] P3  Action / Event Recall gold=A pred=A OK  18.54s
+[2/51] P0  Action / Event Recall gold=A pred=B X   1.2s
+[2/51] P1  Action / Event Recall gold=A pred=A OK  37.3s
+[2/51] P2  Action / Event Recall gold=A pred=A OK  9.77s
+[2/51] P3  Action / Event Recall gold=A pred=D X   21.07s
+[3/51] P0  Attribute Recall gold=C pred=A X   1.29s
+[3/51] P1  Attribute Recall gold=C pred=B X   37.96s
+[3/51] P2  Attribute Recall gold=C pred=C OK  10.58s
+[3/51] P3  Attribute Recall gold=C pred=C OK  18.13s
+[4/51] P0  Action / Event Recall gold=B pred=C X   1.04s
+[4/51] P1  Action / Event Recall gold=B pred=B OK  28.42s
+[4/51] P2  Action / Event Recall gold=B pred=B OK  5.25s
+[4/51] P3  Action / Event Recall gold=B pred=B OK  12.92s
+[5/51] P0  Entity / Object Recall gold=E pred=C X   1.29s
+[5/51] P1  Entity / Object Recall gold=E pred=E OK  30.17s
+[5/51] P2  Entity / Object Recall gold=E pred=E OK  8.28s
+[5/51] P3  Entity / Object Recall gold=E pred=E OK  14.62s
+[6/51] P0  Attribute Recall gold=D pred=D OK  1.4s
+[6/51] P1  Attribute Recall gold=D pred=E X   39.6s
+[6/51] P2  Attribute Recall gold=D pred=D OK  9.92s
+[6/51] P3  Attribute Recall gold=D pred=D OK  17.4s
+[7/51] P0  Entity / Object Recall gold=A pred=E X   1.02s
+[7/51] P1  Entity / Object Recall gold=A pred=A OK  37.48s
+[7/51] P2  Entity / Object Recall gold=A pred=A OK  9.49s
+[7/51] P3  Entity / Object Recall gold=A pred=A OK  15.92s
+[8/51] P0  Attribute Recall gold=E pred=E OK  1.0s
+[8/51] P1  Attribute Recall gold=E pred=E OK  34.9s
+[8/51] P2  Attribute Recall gold=E pred=E OK  9.07s
+[8/51] P3  Attribute Recall gold=E pred=E OK  16.77s
+[9/51] P0  Conversational Context Memory gold=B pred=A X   1.11s
+[9/51] P1  Conversational Context Memory gold=B pred=C X   38.07s
+[9/51] P2  Conversational Context Memory gold=B pred=D X   10.62s
+[9/51] P3  Conversational Context Memory gold=B pred=D X   16.64s
+[10/51] P0  Conversational Context Memory gold=A pred=B X   1.01s
+[10/51] P1  Conversational Context Memory gold=A pred=C X   37.08s
+[10/51] P2  Conversational Context Memory gold=A pred=B X   8.98s
+[10/51] P3  Conversational Context Memory gold=A pred=D X   14.99s
+[11/51] P0  Conversational Context Memory gold=E pred=C X   0.99s
+[11/51] P1  Conversational Context Memory gold=E pred=C X   34.45s
+[11/51] P2  Conversational Context Memory gold=E pred=C X   9.24s
+[11/51] P3  Conversational Context Memory gold=E pred=B X   17.62s
+[12/51] P0  Correction / Revision Memory gold=C pred=B X   1.01s
+[12/51] P1  Correction / Revision Memory gold=C pred=C OK  35.38s
+[12/51] P2  Correction / Revision Memory gold=C pred=C OK  9.24s
+[12/51] P3  Correction / Revision Memory gold=C pred=B X   20.08s
+[13/51] P0  Correction / Revision Memory gold=A pred=A OK  0.75s
+[13/51] P1  Correction / Revision Memory gold=A pred=A OK  34.48s
+[13/51] P2  Correction / Revision Memory gold=A pred=A OK  8.69s
+[13/51] P3  Correction / Revision Memory gold=A pred=B X   15.65s
+[14/51] P0  Correction / Revision Memory gold=B pred=B OK  1.14s
+[14/51] P1  Correction / Revision Memory gold=B pred=E X   33.21s
+[14/51] P2  Correction / Revision Memory gold=B pred=B OK  8.93s
+[14/51] P3  Correction / Revision Memory gold=B pred=E X   16.15s
+[15/51] P0  Counting gold=D pred=C X   0.74s
+[15/51] P1  Counting gold=D pred=D OK  33.68s
+[15/51] P2  Counting gold=D pred=C X   8.43s
+[15/51] P3  Counting gold=D pred=C X   12.21s
+[16/51] P0  Counting gold=B pred=C X   0.81s
+[16/51] P1  Counting gold=B pred=C X   33.13s
+[16/51] P2  Counting gold=B pred=C X   8.53s
+[16/51] P3  Counting gold=B pred=C X   16.85s
+[17/51] P0  Counting gold=D pred=D OK  0.73s
+[17/51] P1  Counting gold=D pred=D OK  33.57s
+[17/51] P2  Counting gold=D pred=D OK  8.34s
+[17/51] P3  Counting gold=D pred=D OK  17.7s
+[18/51] P0  Cross-Time Comparison gold=C pred=E X   0.93s
+[18/51] P1  Cross-Time Comparison gold=C pred=C OK  33.17s
+[18/51] P2  Cross-Time Comparison gold=C pred=C OK  8.67s
+[18/51] P3  Cross-Time Comparison gold=C pred=C OK  16.0s
+[19/51] P0  Cross-Time Comparison gold=C pred=B X   0.91s
+[19/51] P1  Cross-Time Comparison gold=C pred=C OK  32.89s
+[19/51] P2  Cross-Time Comparison gold=C pred=C OK  8.5s
+[19/51] P3  Cross-Time Comparison gold=C pred=C OK  15.77s
+[20/51] P0  Cross-Time Comparison gold=B pred=E X   1.32s
+[20/51] P1  Cross-Time Comparison gold=B pred=B OK  33.17s
+[20/51] P2  Cross-Time Comparison gold=B pred=B OK  8.91s
+[20/51] P3  Cross-Time Comparison gold=B pred=E X   14.22s
+[21/51] P0  Entity / Object Recall gold=B pred=B OK  0.54s
+[21/51] P1  Entity / Object Recall gold=B pred=B OK  25.14s
+[21/51] P2  Entity / Object Recall gold=B pred=B OK  6.42s
+[21/51] P3  Entity / Object Recall gold=B pred=B OK  15.19s
+[22/51] P0  Entity–Identity Binding gold=A pred=C X   0.84s
+[22/51] P1  Entity–Identity Binding gold=A pred=C X   32.95s
+[22/51] P2  Entity–Identity Binding gold=A pred=C X   8.53s
+[22/51] P3  Entity–Identity Binding gold=A pred=C X   15.46s
+[23/51] P0  Entity–Identity Binding gold=B pred=B OK  0.74s
+[23/51] P1  Entity–Identity Binding gold=B pred=B OK  32.82s
+[23/51] P2  Entity–Identity Binding gold=B pred=B OK  8.28s
+[23/51] P3  Entity–Identity Binding gold=B pred=A X   14.54s
+[24/51] P0  Entity–Identity Binding gold=E pred=E OK  0.76s
+[24/51] P1  Entity–Identity Binding gold=E pred=D X   32.92s
+[24/51] P2  Entity–Identity Binding gold=E pred=D X   8.46s
+[24/51] P3  Entity–Identity Binding gold=E pred=D X   11.95s
+[25/51] P0  Identity & State Persistence gold=D pred=C X   1.06s
+[25/51] P1  Identity & State Persistence gold=D pred=C X   33.41s
+[25/51] P2  Identity & State Persistence gold=D pred=C X   7.67s
+[25/51] P3  Identity & State Persistence gold=D pred=A X   14.88s
+[26/51] P0  Identity & State Persistence gold=E pred=B X   0.91s
+[26/51] P1  Identity & State Persistence gold=E pred=E OK  33.18s
+[26/51] P2  Identity & State Persistence gold=E pred=E OK  6.77s
+[26/51] P3  Identity & State Persistence gold=E pred=C X   9.92s
+[27/51] P0  Identity & State Persistence gold=D pred=B X   0.99s
+[27/51] P1  Identity & State Persistence gold=D pred=A X   31.8s
+[27/51] P2  Identity & State Persistence gold=D pred=D OK  8.13s
+[27/51] P3  Identity & State Persistence gold=D pred=B X   13.56s
+[28/51] P0  Latest-State Retrieval gold=C pred=B X   0.73s
+[28/51] P1  Latest-State Retrieval gold=C pred=D X   30.94s
+[28/51] P2  Latest-State Retrieval gold=C pred=D X   7.97s
+[28/51] P3  Latest-State Retrieval gold=C pred=C OK  13.09s
+[29/51] P0  Latest-State Retrieval gold=D pred=C X   1.24s
+[29/51] P1  Latest-State Retrieval gold=D pred=C X   31.75s
+[29/51] P2  Latest-State Retrieval gold=D pred=B X   8.54s
+[29/51] P3  Latest-State Retrieval gold=D pred=B X   12.51s
+[30/51] P0  Latest-State Retrieval gold=B pred=B OK  0.77s
+[30/51] P1  Latest-State Retrieval gold=B pred=B OK  32.08s
+[30/51] P2  Latest-State Retrieval gold=B pred=B OK  8.28s
+[30/51] P3  Latest-State Retrieval gold=B pred=B OK  14.53s
+[31/51] P0  Multi-hop Memory Binding gold=D pred=B X   0.74s
+[31/51] P1  Multi-hop Memory Binding gold=D pred=B X   31.8s
+[31/51] P2  Multi-hop Memory Binding gold=D pred=A X   8.22s
+[31/51] P3  Multi-hop Memory Binding gold=D pred=D OK  13.24s
+[32/51] P0  Multi-hop Memory Binding gold=E pred=B X   0.99s
+[32/51] P1  Multi-hop Memory Binding gold=E pred=C X   32.62s
+[32/51] P2  Multi-hop Memory Binding gold=E pred=E OK  8.28s
+[32/51] P3  Multi-hop Memory Binding gold=E pred=E OK  13.34s
+[33/51] P0  Multi-hop Memory Binding gold=E pred=C X   0.96s
+[33/51] P1  Multi-hop Memory Binding gold=E pred=E OK  32.69s
+[33/51] P2  Multi-hop Memory Binding gold=E pred=E OK  8.45s
+[33/51] P3  Multi-hop Memory Binding gold=E pred=None X   14.84s
+[34/51] P0  Occurrence Verification gold=E pred=B X   0.71s
+[34/51] P1  Occurrence Verification gold=E pred=E OK  32.37s
+[34/51] P2  Occurrence Verification gold=E pred=E OK  8.32s
+[34/51] P3  Occurrence Verification gold=E pred=C X   18.06s
+[35/51] P0  Occurrence Verification gold=E pred=B X   1.1s
+[35/51] P1  Occurrence Verification gold=E pred=E OK  33.65s
+[35/51] P2  Occurrence Verification gold=E pred=B X   8.59s
+[35/51] P3  Occurrence Verification gold=E pred=E OK  19.12s
+Traceback (most recent call last):
+  File "/Users/ruyiyang/Documents/project/change-or-unseen/ovo/ovo_long_probe.py", line 168, in <module>
+    run(ap.parse_args())
+  File "/Users/ruyiyang/Documents/project/change-or-unseen/ovo/ovo_long_probe.py", line 114, in run
+    gold = LETTERS[perm.index(q["answer_index"])]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: [1, 3] is not in list
+W1119 19:25:13.659000 33327 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 6900.04it/s]
+[36/50] P0  Sequential Action Integration gold=D pred=A X   1.73s
+[36/50] P1  Sequential Action Integration gold=D pred=A X   30.49s
+[36/50] P2  Sequential Action Integration gold=D pred=A X   8.21s
+[36/50] P3  Sequential Action Integration gold=D pred=None X   16.86s
+[37/50] P0  Sequential Action Integration gold=B pred=D X   0.89s
+[37/50] P1  Sequential Action Integration gold=B pred=B OK  31.82s
+[37/50] P2  Sequential Action Integration gold=B pred=B OK  8.66s
+[37/50] P3  Sequential Action Integration gold=B pred=B OK  16.27s
+[38/50] P0  Sequential Action Integration gold=B pred=B OK  1.49s
+[38/50] P1  Sequential Action Integration gold=B pred=B OK  33.58s
+[38/50] P2  Sequential Action Integration gold=B pred=B OK  9.26s
+[38/50] P3  Sequential Action Integration gold=B pred=A X   16.16s
+[39/50] P0  Spatial / Location Recall gold=D pred=C X   1.0s
+[39/50] P1  Spatial / Location Recall gold=D pred=E X   33.86s
+[39/50] P2  Spatial / Location Recall gold=D pred=D OK  8.78s
+[39/50] P3  Spatial / Location Recall gold=D pred=E X   12.93s
+[40/50] P0  Spatial / Location Recall gold=C pred=E X   1.23s
+[40/50] P1  Spatial / Location Recall gold=C pred=D X   34.76s
+[40/50] P2  Spatial / Location Recall gold=C pred=C OK  5.19s
+[40/50] P3  Spatial / Location Recall gold=C pred=C OK  11.4s
+[41/50] P0  Temporal Fact Recall gold=E pred=D X   0.77s
+[41/50] P1  Temporal Fact Recall gold=E pred=A X   35.52s
+[41/50] P2  Temporal Fact Recall gold=E pred=E OK  9.71s
+[41/50] P3  Temporal Fact Recall gold=E pred=D X   16.89s
+[42/50] P0  Spatial / Location Recall gold=A pred=C X   1.45s
+[42/50] P1  Spatial / Location Recall gold=A pred=E X   36.49s
+[42/50] P2  Spatial / Location Recall gold=A pred=B X   10.02s
+[42/50] P3  Spatial / Location Recall gold=A pred=E X   19.51s
+[43/50] P0  State Transition Tracking gold=E pred=B X   1.45s
+[43/50] P1  State Transition Tracking gold=E pred=D X   34.61s
+[43/50] P2  State Transition Tracking gold=E pred=B X   9.15s
+[43/50] P3  State Transition Tracking gold=E pred=B X   12.51s
+[44/50] P0  State Transition Tracking gold=B pred=B OK  0.79s
+[44/50] P1  State Transition Tracking gold=B pred=D X   33.58s
+[44/50] P2  State Transition Tracking gold=B pred=D X   9.18s
+[44/50] P3  State Transition Tracking gold=B pred=None X   13.06s
+[45/50] P0  State Transition Tracking gold=B pred=C X   1.28s
+[45/50] P1  State Transition Tracking gold=B pred=E X   34.27s
+[45/50] P2  State Transition Tracking gold=B pred=C X   9.13s
+[45/50] P3  State Transition Tracking gold=B pred=C X   17.17s
+[46/50] P0  Temporal Fact Recall gold=B pred=B OK  0.74s
+[46/50] P1  Temporal Fact Recall gold=B pred=B OK  34.21s
+[46/50] P2  Temporal Fact Recall gold=B pred=B OK  9.33s
+[46/50] P3  Temporal Fact Recall gold=B pred=B OK  14.42s
+[47/50] P0  Temporal Fact Recall gold=D pred=B X   0.78s
+[47/50] P1  Temporal Fact Recall gold=D pred=C X   33.78s
+[47/50] P2  Temporal Fact Recall gold=D pred=E X   8.76s
+[47/50] P3  Temporal Fact Recall gold=D pred=D OK  15.8s
+[48/50] P0  Temporal Ordering gold=D pred=B X   0.75s
+[48/50] P1  Temporal Ordering gold=D pred=D OK  34.27s
+[48/50] P2  Temporal Ordering gold=D pred=D OK  8.87s
+[48/50] P3  Temporal Ordering gold=D pred=A X   14.93s
+[49/50] P0  Temporal Ordering gold=B pred=E X   0.96s
+[49/50] P1  Temporal Ordering gold=B pred=B OK  34.14s
+[49/50] P2  Temporal Ordering gold=B pred=B OK  9.29s
+[49/50] P3  Temporal Ordering gold=B pred=A X   17.01s
+[50/50] P0  Temporal Ordering gold=C pred=A X   1.35s
+[50/50] P1  Temporal Ordering gold=C pred=B X   34.49s
+[50/50] P2  Temporal Ordering gold=C pred=C OK  9.14s
+[50/50] P3  Temporal Ordering gold=C pred=C OK  15.44s

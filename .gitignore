@@ -1,0 +1,33 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+
+# data: videos, frames and downloaded benchmark files stay local (several GB).
+# Only the small question lists we made, and the zip listings the fetch scripts reuse, are tracked.
+data/**
+!data/*/
+!data/meminstream/sample.jsonl
+!data/meminstream/zip_listing.json
+!data/ovo/samples.jsonl
+!data/ovo/long_samples.jsonl
+!data/ovo/long_backward.jsonl
+!data/ovo/src_videos_index.jsonl
+!data/videomme/long_samples.jsonl
+!data/videomme/zip_listing.json
+
+# caches (rebuilt by the scripts)
+methods/stamem/cache/
+
+# generated replay page (80+ MB, rebuilt by viz/build_replay.py)
+viz/*.html
+
+# local snapshot taken before the 2026-11-24 reorganisation
+_backup/
+
+# private drafts and reading notes (kept local, not published)
+proposal/*.docx
+proposal/*.pdf
+/*.html

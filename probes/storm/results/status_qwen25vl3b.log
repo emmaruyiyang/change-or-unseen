@@ -1,0 +1,18 @@
+W1104 13:56:01.307000 46983 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 5522.45it/s]
+[1/50] storm_bike     gt=known     S1 p_unc=0.15  S2 p_unc=0.15  24.3s
+[2/50] storm_bike     gt=known     S1 p_unc=0.44  S2 p_unc=0.13  76.3s
+[3/50] storm_bike     gt=known     S1 p_unc=0.33  S2 p_unc=0.25  80.7s
+[4/50] storm_bike     gt=known     S1 p_unc=0.43  S2 p_unc=0.19  48.7s
+[5/50] storm_bike     gt=known     S1 p_unc=0.53  S2 p_unc=0.54  60.4s
+[6/50] storm_bike     gt=known     S1 p_unc=0.54  S2 p_unc=0.04  80.7s
+[7/50] storm_bike     gt=known     S1 p_unc=0.57  S2 p_unc=0.28  82.4s
+[8/50] storm_bike     gt=known     S1 p_unc=0.57  S2 p_unc=0.21  111.5s
+[9/50] storm_bike     gt=known     S1 p_unc=0.43  S2 p_unc=0.10  181.5s
+[10/50] storm_bike     gt=uncertain S1 p_unc=0.87  S2 p_unc=0.59  141.0s
+[11/50] storm_bike     gt=uncertain S1 p_unc=0.54  S2 p_unc=0.34  184.6s
+[12/50] storm_bike     gt=known     S1 p_unc=0.36  S2 p_unc=0.12  171.7s
+[13/50] storm_cook     gt=known     S1 p_unc=0.63  S2 p_unc=0.49  32.5s
+[14/50] storm_cook     gt=known     S1 p_unc=0.55  S2 p_unc=0.17  98.9s
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
