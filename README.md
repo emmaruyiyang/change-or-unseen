@@ -16,9 +16,7 @@ that measure how much any memory can gain on a benchmark. CS2883R course project
 
 ## 📰 News
 
-- **2026-11:** MemInStream sample probed: answering from the annotated evidence frames beats seeing the whole history, 0.62 vs 0.48.
-- **2026-11:** On OVO-Bench long videos, memory policies finally separate (0.37–0.69); on STORM they do not.
-- **2026-11:** STORM go/no-go: perception is good enough with Qwen3-VL-8B, but short clips leave no room for memory.
+- **2026-11:** On long videos (MemInStream, OVO-Bench), answering from the evidence frames beats seeing the whole history (0.62 vs 0.48 on MemInStream), so memory has room to help; on short STORM clips it does not.
 
 ## 🔬 What the probes show
 
